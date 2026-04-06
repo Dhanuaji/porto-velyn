@@ -62,7 +62,7 @@ html {
     display: block;
     object-fit: cover;
     max-height: 775px; /* adjust as needed */
-    margin-top: 4rem;
+    /* margin-top: 1rem; */
 }
 
 .portfolio {
