@@ -61,7 +61,8 @@ html {
     height: auto;
     display: block;
     object-fit: cover;
-    max-height: 775px; /* adjust as needed */
+    /* max-height: 775px;  */
+    /* adjust as needed */
     /* margin-top: 1rem; */
 }
 
@@ -426,16 +427,16 @@ section {
     }
 
     .nav-list {
-            flex-direction: column;
-            position: absolute;
-            top: 70px;
-            left: 0;
-            right: 0;
-            background: #f0f0f0;
-            padding: 1rem;
-            border-radius: 8px;
-            display: none; /* hidden until toggled */
-        }
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: #f0f0f0;
+        padding: 1rem;
+        border-radius: 8px;
+        display: none; /* hidden until toggled */
+    }
 
     .nav-list.show {
         display: flex;
@@ -443,6 +444,12 @@ section {
 
     .menu-toggle {
         display: block; /* <-- only shows on small screens */
+    }
+
+    .banner {    
+        min-height: auto;
+        padding-top: 48px;
+        padding-bottom: 32px;
     }
 
     .portfolio {
