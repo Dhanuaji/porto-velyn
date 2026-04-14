@@ -250,6 +250,20 @@ section {
     transform: scale(1.15);
 }
 
+
+.photo-album {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.photo-album img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+
 /* Content */
 .project-content {
     padding: 1.5rem;
