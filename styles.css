@@ -252,13 +252,14 @@ section {
 
 
 .photo-album {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* centers the photos horizontally */
   gap: 10px;
 }
 
 .photo-album img {
-  width: 100%;
+  width: 120px;   /* fixed size for consistency */
   border-radius: 6px;
   object-fit: cover;
 }
